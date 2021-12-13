@@ -14,8 +14,10 @@ export default function App() {
 }
   return (
     <>
+    <div>
     <h1> {count} </h1>
     <button onClick={ IncNum }>Click Me</button>
+    </div>
     </>
   );
 }
